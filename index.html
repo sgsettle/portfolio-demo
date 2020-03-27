@@ -3,42 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slayde Settle</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
-<body>
-   
-    <!-- Navbar-->
-    <nav id="navbar">
-        <ul class="navLinks">
-            <li id="brand" class="listItem">
-                <a href="#">Slayde Settle</a>
-            </li>
-            <li class="listItem">
-                <a href="#about">About</a>
-            </li>
-            <li class="listItem">
-                <a href="#social">Social Media</a>
-            </li>
-        </ul>
-    </nav>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <ul>
+      <li id="brand">
+        <a href="#home" class="nav-link">
+          Slayde
+        </a>
+      </li>
+      <li>
+        <a href="/Users/slaydesettle/Desktop/threeDayBootcamp/contact.html" class="nav-link">
+          Contact
+        </a>
+      </li>
+      <li>
+        <a href="#about" class="nav-link">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/slayde-settle-b9547769" target="_blank" class="nav-link">
+        Linkedin
+    </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=YWCN8Qw1fz8" target="_blank" class="nav-link">
+        YouTube
+    </a>
+      </li>
+    </ul>
+  </nav>
+
+  <body>
+  <header id="home">
+    <h1 class="header-tag">I'm Slayde Settle</h1>
+    <h3 class="header-tag">
+      Web Developer <i>in training</i>. Nice to meet you!
+    </h3>
+  </header>
+  
+  <div id="main">
+    <section id="about">
+      <div id="about-picture">
+        <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p320x320/81362264_10218874844199682_8173654726605275136_o.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_ohc=FP2Z99bvoYIAX-OyeC5&_nc_ht=scontent-ort2-2.xx&_nc_tp=6&oh=644388eb37bafdca3a4379f49c6bad8b&oe=5E980596" alt="My Face" id="profile-pic" >
+      </div>
+      <div id="about-content">
+                             <h2>About Me</h2>
+                             <p>Hodor. Hodor HODOR hodor, hodor hodor, hodor. Hodor hodor hodor hodor?! Hodor, hodor. Hodor. Hodor, HODOR hodor, hodor hodor; hodor hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor! Hodor. Hodor hodor hodor - hodor, hodor, hodor hodor. Hodor. Hodor hodor hodor hodor hodor - hodor? Hodor HODOR hodor, hodor hodor hodor hodor?! Hodor. Hodor hodor... Hodor hodor hodor?</p>
+      </div>
+      <br>
+      <br>
+      <div id="main">
+        <section id="about">
+          <div id="dog-picture">
+            <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/71762112_10218073922657144_99154315075125248_n.jpg?_nc_cat=107&_nc_sid=0be424&_nc_ohc=JB358BJbiq8AX_3whtm&_nc_ht=scontent-ort2-2.xx&oh=bbc63d04ee5f62a21f68234245503c24&oe=5EA296AD" alt="My Dogs" id="dog-pic" >
+          </div>
+          <div id="dog-content">
+            <p>Hodor. Hodor HODOR hodor, hodor hodor, hodor. Hodor hodor hodor hodor?! Hodor, hodor. Hodor. Hodor, HODOR hodor, hodor hodor; hodor hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor! Hodor. Hodor hodor hodor - hodor, hodor, hodor hodor. Hodor. Hodor hodor hodor hodor hodor - hodor? Hodor HODOR hodor, hodor hodor hodor hodor?! Hodor. Hodor hodor... Hodor hodor hodor?<br><br>Hodor. Hodor HODOR hodor, hodor hodor, hodor. Hodor hodor hodor hodor?! Hodor, hodor. Hodor. Hodor, HODOR hodor, hodor hodor; hodor hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor! Hodor. Hodor hodor hodor - hodor, hodor, hodor hodor. Hodor. Hodor hodor hodor hodor hodor - hodor? Hodor HODOR hodor, hodor hodor hodor hodor?!</p>
+</div>
 
 
-    <!-- Header Section -->
-    <header>
-        <div id="imageBox">
+        
+      <style>
+          body {
+  background-color: lightblue;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
 
-        </div>
-        <div id="greetingBox">
-            <h1>Hello</h1>
-            <p>I am a Hairdresser</p>
-        </div>
-    </header>
-    <!-- About Section -->
+nav {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
 
-    <!-- Social Media -->
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
 
-    <!-- Footer -->
+#brand {
+  float: left;
+}
+
+.nav-link {
+  color: lightgrey;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+
+.nav-link:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+#brand .nav-link {
+  color: lightblue;
+}
+
+#brand .nav-link:hover {
+  color: lightgrey;
+}
+
+h1 {
+  font-size: 45pt;
+}
+
+#home {
+  width: 100vw;
+position: relative;
+  left: -8px;
+  height: 200px;
+  background: url(https://images.unsplash.com/photo-1486728297118-82a07bc48a28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center 75% fixed no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.header-tag {
+  text-align: center;
+  color: lightblue;
+  text-shadow: 2px 2px 2px darkblue
+}
+
+h3.header-tag {
+  font-size: 18pt;
+}
+
+h2 {
+  color: darkblue;
+}
+
+#main {
+  text-align: center;
+}
+
+#about {
+margin-top: 50px;
+  display: inline-block;
+}
+
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+}
+
+#about-content {
+  width: 40vw;
+  float: right;
+}
+
+#dog-picture {
+width: 30vw;
+float:right;
+}
+
+#dog-pic {
+    height:300px;
+    width:300px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+}
+
+#dog-content {
+    width:40vw;
+    float: left;
+}
+      </style>
+    </section>
+  </div>
 </body>
-</html>
+  </html>
+  
